@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NotfoundComponent } from './layout/notfound/notfound.component';
+import { SanphamComponent } from './sanpham/sanpham.component';
+import { DsspComponent } from './sanpham/dssp/dssp.component';
+import {ChitietspComponent} from './sanpham/chitietsp/chitietsp.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,12 @@ import { NotfoundComponent } from './layout/notfound/notfound.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    NotfoundComponent
+    // NotfoundComponent,
+    SanphamComponent,
+    // DsspComponent,
+    // ChitietspComponent,
+    // CartComponent, 
+
   ],
   imports: [
     BrowserModule,

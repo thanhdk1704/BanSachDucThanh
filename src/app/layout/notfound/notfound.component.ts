@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NotfoundComponent implements OnInit {
 
   constructor() { }
-
+title="không thấy";
   ngOnInit(): void {
   }
 
